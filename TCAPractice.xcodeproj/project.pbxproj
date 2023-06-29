@@ -33,6 +33,7 @@
 		B6DF4EDD2A46A275007F4ABA /* DetailsDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsDomain.swift; sourceTree = "<group>"; };
 		B6E9CF682A47E4A20067DBAA /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		B6E9CF6A2A47E5590067DBAA /* FormDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDomain.swift; sourceTree = "<group>"; };
+		B6EF9FC62A4D14F100C54A9A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		B63BF8422A4155C600A5B42F = {
 			isa = PBXGroup;
 			children = (
+				B6EF9FC62A4D14F100C54A9A /* README.md */,
 				B63BF84D2A4155C600A5B42F /* TCAPractice */,
 				B63BF84C2A4155C600A5B42F /* Products */,
 			);
