@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		B63BF84F2A4155C600A5B42F /* TCAPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63BF84E2A4155C600A5B42F /* TCAPracticeApp.swift */; };
-		B63BF8512A4155C600A5B42F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63BF8502A4155C600A5B42F /* ContentView.swift */; };
+		B63BF8512A4155C600A5B42F /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63BF8502A4155C600A5B42F /* FormView.swift */; };
 		B63BF8532A4155C800A5B42F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63BF8522A4155C800A5B42F /* Assets.xcassets */; };
 		B63BF8562A4155C800A5B42F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63BF8552A4155C800A5B42F /* Preview Assets.xcassets */; };
+		B63BF8682A41581F00A5B42F /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = B63BF8672A41581F00A5B42F /* ComposableArchitecture */; };
+		B63BF86D2A41592A00A5B42F /* ToastManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63BF86C2A41592A00A5B42F /* ToastManager.swift */; };
+		B63BF8702A415BD500A5B42F /* Toast in Frameworks */ = {isa = PBXBuildFile; productRef = B63BF86F2A415BD500A5B42F /* Toast */; };
+		B63BF8722A4164F600A5B42F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63BF8712A4164F600A5B42F /* Model.swift */; };
+		B6CE834B2A49842700C7CA34 /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CE834A2A49842700C7CA34 /* Root.swift */; };
+		B6DF4EDE2A46A275007F4ABA /* DetailsDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DF4EDD2A46A275007F4ABA /* DetailsDomain.swift */; };
+		B6E9CF692A47E4A20067DBAA /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E9CF682A47E4A20067DBAA /* View.swift */; };
+		B6E9CF6B2A47E5590067DBAA /* FormDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E9CF6A2A47E5590067DBAA /* FormDomain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B63BF84B2A4155C600A5B42F /* TCAPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCAPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63BF84E2A4155C600A5B42F /* TCAPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAPracticeApp.swift; sourceTree = "<group>"; };
-		B63BF8502A4155C600A5B42F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B63BF8502A4155C600A5B42F /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		B63BF8522A4155C800A5B42F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B63BF8552A4155C800A5B42F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B63BF86C2A41592A00A5B42F /* ToastManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastManager.swift; sourceTree = "<group>"; };
+		B63BF8712A4164F600A5B42F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B6CE834A2A49842700C7CA34 /* Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
+		B6DF4EDD2A46A275007F4ABA /* DetailsDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsDomain.swift; sourceTree = "<group>"; };
+		B6E9CF682A47E4A20067DBAA /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		B6E9CF6A2A47E5590067DBAA /* FormDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDomain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B63BF8702A415BD500A5B42F /* Toast in Frameworks */,
+				B63BF8682A41581F00A5B42F /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				B63BF84E2A4155C600A5B42F /* TCAPracticeApp.swift */,
-				B63BF8502A4155C600A5B42F /* ContentView.swift */,
+				B63BF86C2A41592A00A5B42F /* ToastManager.swift */,
+				B6CE834A2A49842700C7CA34 /* Root.swift */,
+				B6DF4ED92A46A11E007F4ABA /* Form */,
+				B6DF4EDA2A46A121007F4ABA /* DetailsView */,
 				B63BF8522A4155C800A5B42F /* Assets.xcassets */,
 				B63BF8542A4155C800A5B42F /* Preview Content */,
 			);
@@ -65,6 +84,25 @@
 				B63BF8552A4155C800A5B42F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6DF4ED92A46A11E007F4ABA /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				B63BF8712A4164F600A5B42F /* Model.swift */,
+				B6E9CF6A2A47E5590067DBAA /* FormDomain.swift */,
+				B63BF8502A4155C600A5B42F /* FormView.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		B6DF4EDA2A46A121007F4ABA /* DetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				B6DF4EDD2A46A275007F4ABA /* DetailsDomain.swift */,
+				B6E9CF682A47E4A20067DBAA /* View.swift */,
+			);
+			path = DetailsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +121,10 @@
 			dependencies = (
 			);
 			name = TCAPractice;
+			packageProductDependencies = (
+				B63BF8672A41581F00A5B42F /* ComposableArchitecture */,
+				B63BF86F2A415BD500A5B42F /* Toast */,
+			);
 			productName = TCAPractice;
 			productReference = B63BF84B2A4155C600A5B42F /* TCAPractice.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +153,10 @@
 				Base,
 			);
 			mainGroup = B63BF8422A4155C600A5B42F;
+			packageReferences = (
+				B63BF8662A41581F00A5B42F /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				B63BF86E2A415BD500A5B42F /* XCRemoteSwiftPackageReference "toast-swift" */,
+			);
 			productRefGroup = B63BF84C2A4155C600A5B42F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +183,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B63BF8512A4155C600A5B42F /* ContentView.swift in Sources */,
+				B63BF8722A4164F600A5B42F /* Model.swift in Sources */,
+				B6CE834B2A49842700C7CA34 /* Root.swift in Sources */,
+				B6DF4EDE2A46A275007F4ABA /* DetailsDomain.swift in Sources */,
+				B63BF86D2A41592A00A5B42F /* ToastManager.swift in Sources */,
+				B63BF8512A4155C600A5B42F /* FormView.swift in Sources */,
 				B63BF84F2A4155C600A5B42F /* TCAPracticeApp.swift in Sources */,
+				B6E9CF692A47E4A20067DBAA /* View.swift in Sources */,
+				B6E9CF6B2A47E5590067DBAA /* FormDomain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +391,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B63BF8662A41581F00A5B42F /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.54.1;
+			};
+		};
+		B63BF86E2A415BD500A5B42F /* XCRemoteSwiftPackageReference "toast-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BastiaanJansen/toast-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B63BF8672A41581F00A5B42F /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B63BF8662A41581F00A5B42F /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		B63BF86F2A415BD500A5B42F /* Toast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B63BF86E2A415BD500A5B42F /* XCRemoteSwiftPackageReference "toast-swift" */;
+			productName = Toast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B63BF8432A4155C600A5B42F /* Project object */;
 }

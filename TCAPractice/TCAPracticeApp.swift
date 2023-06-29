@@ -6,12 +6,19 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct TCAPracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                FormView ( 
+                    store: Store(initialState: FormDomain.State()) {
+                        FormDomain()
+                    }
+                )
+            }
         }
     }
 }
